@@ -1,0 +1,780 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.logo-text {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: bisque;
+  position: absolute;
+  bottom: 40px;
+}
+
+.icon {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.tel {
+  color: bisque;
+  border: 1px solid;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.tel:hover {
+  background-color: bisque;
+  color: #000000;
+}
+
+.bottom {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  margin-left: 9px;
+  position: absolute;
+  width: max-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nava {
+  margin-left: 30px;
+}
+
+.main-1 {
+  font-size: 85px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 30px;
+}
+
+.main-1:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.main-2 {
+  width: 100%;
+  height: 700px;
+  background-image: url(https://i.pinimg.com/1200x/e0/09/08/e00908e9d7c4919287edda4d863e23b4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  filter: contrast(100%) brightness(1.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding-left: 30px;
+  position: relative;
+}
+
+.main-2::after {
+  content: "";
+  width: 100%;
+  height: 700px;
+  background: #000000;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.64) 27%,
+    rgba(237, 221, 83, 0) 100%
+  );
+  /* z-index: ; */
+  position: absolute;
+  left: 0;
+}
+
+.main-2 h2,
+.main-2 button {
+  z-index: 3;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  background-color: #e5bf4a;
+  border: 1.5px solid #e5bf4a;
+  cursor: pointer;
+  transition: 0.2s linear;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+button:hover {
+  background-color: #ffffff00;
+  color: #e5bf4a;
+}
+
+.navic:hover {
+  color: #e5bf4a;
+}
+
+.navic:hover.navic::after {
+  width: 100%;
+}
+
+.navic::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #e5bf4a;
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  transition: 0.2s linear;
+}
+
+.navic {
+  position: relative;
+}
+
+.rot {
+  display: inline-block;
+  transition: transform 0.6s ease, color 0.3s ease;
+}
+
+.rot:hover {
+  color: #e5bf4a;
+  transform: rotateY(180deg);
+}
+
+.sect-2 {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 600px;
+}
+
+.sect2-main {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+img {
+  width: 526px;
+  height: 367px;
+}
+
+p {
+  width: 790px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sect2-title {
+  font-size: 40px;
+  width: 1000px;
+  text-align: center;
+  margin: 30px 0px;
+  position: relative;
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.sect2-title::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #e5bf4a;
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sect2-h2 {
+  color: #e5bf4a;
+  width: 600px;
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.sect-3 {
+  padding: 30px 0px;
+  background-color: #000000;
+  height: 500px;
+}
+
+.sect-3main {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  /* gap: 20px; */
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+img {
+  width: 609px;
+  height: 355px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+span {
+  color: #e5bf4a;
+  font-size: 20px;
+}
+
+.sect-3-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.sect3-image {
+  overflow: hidden;
+  width: 408px;
+  height: 327px;
+  position: relative;
+}
+
+.sect3-image img {
+  transition: 0.3s ease;
+  scale: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.sect-3-div:hover img {
+  scale: 1.1;
+}
+
+.add {
+  background-color: #e5bf4a;
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: -15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.add span {
+  color: #fff;
+}
+
+.sect-3-div:hover .add {
+  bottom: 0%;
+}
+
+.sect4 {
+  background-color: #000000;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.sect5 {
+  background-color: #000000;
+  width: 100%;
+  min-height: 520px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect5-span {
+  color: #ffffff;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instagram-btn {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  color: #e5bf4a;
+  border: 2px solid #e5bf4a;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+.instagram-btn:hover {
+  background-color: #e5bf4a;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+.instagram-btn i {
+  font-size: 18px;
+}
+
+.sect5-div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto 0;
+  flex-wrap: wrap;
+}
+
+.sect5-bala {
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sect5-bala:hover {
+  transform: scale(1.05);
+}
+
+.sect5-bala img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .sect5-bala img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sect5-span {
+    font-size: 32px;
+  }
+
+  .sect5-div {
+    gap: 15px;
+  }
+
+  .sect5-bala img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sect5-span {
+    font-size: 28px;
+  }
+
+  .sect5-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sect5-bala img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+footer {
+  background-color: #000000;
+  height: 533px;
+}
+
+footer .top {
+  width: 87%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .top::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff58;
+  bottom: -5%;
+}
+
+.navigation2 {
+  display: flex;
+}
+
+.btn {
+  background-color: #00000000;
+  color: #fff !important;
+  border: 1px solid #ffffff4a;
+  margin: 0 !important;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.foot-p {
+  color: #fff;
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.foot-pp {
+  display: flex;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+  padding: 30px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.loc {
+  display: flex;
+  flex-direction: column;
+  width: 219px;
+  height: 220px;
+}
+
+.loc img,
+.cont img {
+  width: 30px;
+  height: 30px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  width: 219px;
+  height: 220px;
+}
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .center::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff58;
+  bottom: -5%;
+}
+
+.btn:hover {
+  background-color: #e5bf4a;
+}
+
+.Instagram:hover {
+  background-color: #e5bf4a;
+  color: #000000;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.side i {
+  color: #e5bf4a;
+}
+
+.cart-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+}
+
+.cart-modal.hidden {
+  display: none;
+}
+
+.cart-modal-content {
+  width: 90%;
+  max-width: 520px;
+  max-height: 80vh;
+  overflow: hidden;
+
+  background: rgba(17, 17, 17, 0.92);
+  border: 1px solid #ffd60a44;
+  border-radius: 14px;
+
+  box-shadow: 0 0 28px #ffd60a22, 0 0 6px 2px #ffd60a55;
+
+  padding: 1.8rem 2rem 1.6rem;
+  color: #f5f5f5;
+  position: relative;
+}
+
+.cart-modal-content h2 {
+  margin: 0 0 1.2rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffd60a;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #ffd60a;
+  transition: transform 0.25s, color 0.25s;
+}
+
+.close-btn:hover {
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+#cart-list {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 48vh;
+  scrollbar-width: thin;
+  scrollbar-color: #ffd60a55 #111;
+}
+
+#cart-list::-webkit-scrollbar {
+  width: 6px;
+}
+#cart-list::-webkit-scrollbar-track {
+  background: #111;
+}
+#cart-list::-webkit-scrollbar-thumb {
+  background: #ffd60a55;
+  border-radius: 3px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #ffd60a22;
+}
+
+.item-name {
+  flex: 1 1 42%;
+  font-size: 0.96rem;
+  color: #fff;
+}
+
+.item-price {
+  flex: 0 0 80px;
+  text-align: right;
+  font-weight: 500;
+  color: #ffd60a;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.qty-controls button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffd60a99;
+  background: transparent;
+  color: #ffd60a;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s, transform 0.15s;
+}
+
+.qty-controls button:hover {
+  background: #ffd60a;
+  color: #000;
+}
+
+.qty-controls button:active {
+  transform: scale(0.9);
+}
+
+.qty-controls span.qty {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 28px;
+  margin-bottom: -8px;
+}
+
+.total {
+  margin-top: 0.4rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #ffd60a44;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: right;
+  color: #ffd60a;
+}
+
+@media (max-width: 460px) {
+  .cart-modal-content {
+    padding: 1.5rem 1.2rem 1.2rem;
+  }
+
+  .item-name {
+    font-size: 0.9rem;
+  }
+  .item-price {
+    flex-basis: 72px;
+  }
+}
+
+.buy {
+  background-color: #e5bf4a;
+  color: #000000;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.2s linear;
+}
+
+.buy:hover {
+  background-color: #ffffff00;
+  color: #e5bf4a;
+}
+
+.p12 {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+}

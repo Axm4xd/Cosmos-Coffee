@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top">
+        <ul class="social">
+          <li>
+            <a href="#" class="icon rot"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/axm4xd?igsh=c3N6a2lvY3hkOHJh"
+              class="icon rot"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="icon rot"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="logo">
+          <h1 class="logo-text">Cosmos Coffee</h1>
+        </div>
+        <div class="side">
+          <i class="fa-solid fa-cart-shopping" id="cart"></i>
+          <div class="tel">
+            <span>Call Us: +994 50 801 41 61</span>
+          </div>
+        </div>
+
+        <div id="cart-modal" class="cart-modal hidden">
+          <div class="cart-modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Cart</h2>
+
+            <ul id="cart-list"></ul>
+
+            <div class="total">Sum: <span id="total-price">0</span> $</div>
+            <button class="buy" onclick="">Buy</div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <nav>
+          <ul class="navigation">
+            <li class="nava"><a href="#" class="icon navic">Home</a></li>
+            <li class="nava"><a href="#" class="icon navic">Coffee</a></li>
+            <li class="nava"><a href="#" class="icon navic">About</a></li>
+            <li class="nava"><a href="#" class="icon navic">Blog</a></li>
+            <li class="nava"><a href="#" class="icon navic">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="main-2">
+        <h2 class="main-1">Healty made</h2>
+        <h2 class="main-1">Delicios Coffee</h2>
+        <button
+          type="button"
+          id="myButton"
+          onclick='document.getElementById("myButton").innerHTML = "Ordered"'
+        >
+          Order now
+        </button>
+      </section>
+      <section class="sect-2">
+        <h2 class="sect2-title">
+          This is Cosmos Coffee. Awesome Coffee Theme. Purchase it and drink
+          Coffee.
+        </h2>
+        <div class="sect2-main">
+          <div class="left">
+            <h2 class="sect2-h2">
+              This is Cosmos Coffee. Awesome Coffee Theme. Purchase it and drink
+              Coffee.
+            </h2>
+            <p class="p12">
+              Welcome to Cosmos Coffee — where every cup tells a story. Our
+              coffee is not just a drink; it’s an experience crafted with
+              passion, precision, and the finest beans from around the world. At
+              Cosmos Coffee, flavor is everything. That’s why coffee lovers
+              choose us — for the rich aroma, smooth taste, and unforgettable
+              moments shared over each cup. Whether you crave bold espresso,
+              creamy cappuccino, or a perfectly brewed filter coffee, we promise
+              quality that speaks for itself. Step inside, relax, and discover
+              why our coffee is chosen for its unique taste, warm atmosphere,
+              and the community that turns strangers into friends. Cosmos Coffee
+              — Selected for its flavor, remembered for its vibe.
+            </p>
+          </div>
+          <img 
+            src="https://static.vecteezy.com/system/resources/thumbnails/025/282/026/small/stock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="sect-3">
+        <div class="sect-3main">
+          <div class="sect-3-div">
+            <div class="sect3-image">
+              <img
+                src="https://media.istockphoto.com/id/814684194/photo/coffee-beans-and-hot-cofee-cup-with-latte-art-on-wooden-background-side-view-with-copy-space.jpg?s=612x612&w=0&k=20&c=HAKafzNkAkO4zhKu6tuz5yZr6ILhh5FKqhrGXikfjAo="
+                alt=""
+              />
+              <div class="add"><span>Add to cart</span></div>
+            </div>
+            <h3>Cappuccino</h3>
+            <span>04.00 $</span>
+          </div>
+          <div class="sect-3-div">
+            <div class="sect3-image">
+              <img
+                src="https://c1.wallpaperflare.com/preview/396/728/1010/beans-black-black-background-brown.jpg"
+                alt=""
+              />
+              <div class="add"><span>Add to cart</span></div>
+            </div>
+            <h3>Americano</h3>
+            <span>03.00 $</span>
+          </div>
+          <div class="sect-3-div">
+            <div class="sect3-image">
+              <img
+                src="https://img.freepik.com/premium-photo/cup-coffee-with-black-background-black-background-with-bunch-coffee-beans_818261-3174.jpg"
+                alt=""
+              />
+              <div class="add"><span>Add to cart</span></div>
+            </div>
+            <h3>Espresso</h3>
+            <span>02.50 $</span>
+          </div>
+        </div>
+      </section>
+      <section class="sect4">
+        <iframe
+          width="1080"
+          height="555"
+          src="https://www.youtube.com/embed/0jIeCAOkgcQ"
+          title="Kávé összefoglaló - marketing videó"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="sect5">
+  <span class="sect5-span">Follow us on Instagram</span>
+  <button class="instagram-btn" id="modal1">
+    <i class="fa-brands fa-instagram"></i>
+    Cosmos Coffee
+  </button>
+  <div class="sect5-div">
+    <div class="sect5-bala">
+      <img
+        src="https://thumbs.dreamstime.com/b/coffee-cup-cafe-latte-beans-32206081.jpg"
+        alt="Cappuccino with latte art"
+      />
+    </div>
+    <div class="sect5-bala">
+      <img
+        src="https://www.shutterstock.com/image-photo/closeup-hot-coffee-latte-art-600nw-2493517705.jpg"
+        alt="Iced cappuccino"
+      />
+    </div>
+    <div class="sect5-bala">
+      <img
+        src="https://t4.ftcdn.net/jpg/01/76/51/73/360_F_176517375_TdfFVyrJahmr40ffqy1xBgUj9X07sVfB.jpg"
+        alt="Americano coffee"
+      />
+    </div>
+    <div class="sect5-bala">
+      <img
+        src="https://thegatewayonline.ca/wp-content/uploads/2020/03/Ice-and-hot-coffee.jpg "
+        alt="Espresso drink"
+      />
+    </div>
+  </div>
+</section>
+    </main>
+    <footer>
+      <div class="top">
+        <div class="logo">
+          <h1 class="logo-text">Cosmos Coffee</h1>
+        </div>
+        <nav>
+          <ul class="navigation2">
+            <li class="nava"><a href="#" class="icon navic">Home</a></li>
+            <li class="nava"><a href="#" class="icon navic">Coffee</a></li>
+            <li class="nava"><a href="#" class="icon navic">About</a></li>
+            <li class="nava"><a href="#" class="icon navic">Blog</a></li>
+            <li class="nava"><a href="#" class="icon navic">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="center">
+        <div class="insta">
+          <p class="foot-p">
+            Welcome to Cosmos Coffee, your perfect spot to relax, enjoy great
+            coffee, and connect with friends.
+          </p>
+          <div class="btns">
+            <button class="btn" id="modal1">
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button class="btn" id="modal2">
+              <i class="fa-brands fa-facebook"></i>
+            </button>
+            <button class="btn" id="modal3">
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+          </div>
+
+          <div class="modal" id="modalWindow1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <a href="https://www.instagram.com/axm4xd?igsh=c3N6a2lvY3hkOHJh"
+                >By Akhmed Guliyev</a
+              >
+            </div>
+          </div>
+
+          <div class="modal" id="modalWindow2">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>By Akhmed Guliyev</p>
+            </div>
+          </div>
+
+          <div class="modal" id="modalWindow3">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>By Akhmed Guliyev</p>
+            </div>
+          </div>
+        </div>
+        <div class="loc">
+          <img
+            src="https://preview.colorlib.com/theme/cakeshop/assets/img/icon/location.svg"
+            alt=""
+          />
+          <span>Location</span>
+          <p class="foot-pp">Elmlar Academy metro station</p>
+          <p class="foot-pp">Mammad Rahim street</p>
+        </div>
+        <div class="cont">
+          <img
+            src="https://preview.colorlib.com/theme/cakeshop/assets/img/icon/phone.svg"
+            alt=""
+          />
+          <span>Contact</span>
+          <p class="foot-pp">050-801-4161</p>
+          <p class="foot-pp">@Cosmos Coffee</p>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
